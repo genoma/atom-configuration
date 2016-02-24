@@ -32,4 +32,5 @@ packages: [
   "sort-lines"
   "terminal-plus"
   "vim-mode-plus"
+  "vim-mode-plus-ex-mode"
 ]

@@ -42,6 +42,9 @@
   'ctrl-y': 'clip-history:paste'
   'cmd-y': 'clip-history:paste-newer'
   'ctrl-Y': 'clip-history:paste-last'
+  # EX MODE
+  ':': 'vim-mode-plus-ex-mode:open'
+  '!': 'vim-mode-plus-ex-mode:toggle-setting'
 
 # SURROUND
 'atom-text-editor.vim-mode-plus.visual-mode':
