@@ -1,0 +1,19 @@
+# Add everything that's not useful
+blob-store
+compile-cache
+dev
+storage
+.node-gyp
+.npm
+.apm
+
+# We add packages to the .gitignore
+packages/**
+# But not package-sync
+!packages/package-sync
+
+# PRIVACY
+# No public projects sorry
+projects.cson
+# No default proxy setting
+.apmrc

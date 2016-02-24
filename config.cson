@@ -1,0 +1,65 @@
+"*":
+  "atom-beautify":
+    _analyticsUserId: "c7844b0f-4310-4637-bd1e-dfe8785825e5"
+  "atom-typescript": {}
+  "autocomplete-plus": {}
+  build: {}
+  "clip-history": {}
+  core:
+    audioBeep: false
+    themes: [
+      "one-dark-ui"
+      "gruvbox"
+    ]
+  "cursor-history": {}
+  editor:
+    fontFamily: "Fira Code"
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "018125f2-7a66-8644-6ae4-6ae87d186db9"
+  "imdone-atom":
+    openIn: {}
+    todaysJournal: {}
+  "language-babel": {}
+  linter:
+    displayLinterInfo: false
+    errorPanelHeight: 136
+    lintOnFlyInterval: 1000
+  "linter-eslint": {}
+  "linter-jshint": {}
+  minimap: {}
+  "one-dark-ui": {}
+  "one-light-ui": {}
+  "package-sync":
+    forceOverwrite: true
+  pigments: {}
+  "terminal-plus":
+    core:
+      shell: "/usr/local/bin/zsh"
+    style:
+      defaultPanelHeight: "100px"
+    toggles:
+      autoClose: true
+      cursorBlink: false
+  "vim-mode-plus":
+    flashOnUndoRedo: true
+    flashOnUndoRedoDuration: 150
+    incrementalSearch: true
+    setCursorToStartOfChangeOnUndoRedo: true
+    showHoverOnOperate: true
+    showHoverSearchCounter: true
+    stayOnTransformString: true
+    stayOnYank: true
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".pug.text":
+  whitespace:
+    removeTrailingWhitespace: false
