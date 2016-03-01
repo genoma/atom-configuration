@@ -38,10 +38,6 @@
   'y m s':  'vim-mode-plus:map-surround'
   'd s': 'vim-mode-plus:delete-surround-any-pair'
   'c s': 'vim-mode-plus:change-surround-any-pair'
-  # CLIP HISTORY
-  'ctrl-y': 'clip-history:paste'
-  'cmd-y': 'clip-history:paste-newer'
-  'ctrl-Y': 'clip-history:paste-last'
   # EX MODE
   ':': 'vim-mode-plus-ex-mode:open'
   '!': 'vim-mode-plus-ex-mode:toggle-setting'
@@ -49,3 +45,7 @@
 # SURROUND
 'atom-text-editor.vim-mode-plus.visual-mode':
   'shift-S': 'vim-mode-plus:surround'
+
+# CLIPBOARD PLUS
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-p': 'clipboard-plus:toggle'

@@ -2,18 +2,36 @@
   "aligner-scss": {}
   "atom-beautify":
     _analyticsUserId: "c7844b0f-4310-4637-bd1e-dfe8785825e5"
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 121
+        green: 121
+        blue: 121
+        alpha: 1
+      accentColor:
+        red: 158
+        green: 110
+        blue: 110
+        alpha: 1
+      genAccent: true
+    fonts: {}
+    tabs:
+      compactTabs: true
+    treeView: {}
+    ui:
+      panelContrast: true
+      panelShadows: true
   "atom-typescript": {}
   "autocomplete-plus": {}
   build: {}
   "clip-history": {}
+  "clipboard-plus": {}
   core:
     audioBeep: false
-    disabledPackages: [
-      "terminal-plus"
-    ]
     themes: [
-      "one-dark-ui"
-      "gruvbox"
+      "atom-material-ui"
+      "hybrid-next-syntax"
     ]
   "cursor-history": {}
   editor:
@@ -31,7 +49,7 @@
   "language-babel": {}
   linter:
     displayLinterInfo: false
-    errorPanelHeight: 136
+    errorPanelHeight: 1030
     lintOnFlyInterval: 1000
   "linter-eslint": {}
   "linter-jshint": {}
@@ -50,6 +68,10 @@
     toggles:
       autoClose: true
       cursorBlink: false
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "vim-mode-clipboard-plus":
+    useVimModePlus: true
   "vim-mode-plus":
     flashOnUndoRedo: true
     flashOnUndoRedoDuration: 150
@@ -65,6 +87,6 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
-".pug.text":
+".pug.source":
   whitespace:
     removeTrailingWhitespace: false
