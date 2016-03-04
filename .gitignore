@@ -13,7 +13,4 @@ packages/**
 !packages/package-sync
 
 # PRIVACY
-# No public projects sorry
-projects.cson
-# No default proxy setting
 .apmrc
