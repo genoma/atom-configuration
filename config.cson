@@ -49,7 +49,7 @@
   "language-babel": {}
   linter:
     displayLinterInfo: false
-    errorPanelHeight: 1030
+    errorPanelHeight: 24
     lintOnFlyInterval: 1000
   "linter-eslint": {}
   "linter-jshint": {}
@@ -60,6 +60,7 @@
   "package-sync":
     forceOverwrite: true
   pigments: {}
+  "project-plus": {}
   "terminal-plus":
     core:
       shell: "/usr/local/bin/zsh"

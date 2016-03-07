@@ -1,8 +1,10 @@
 packages: [
+  ".bin"
   "aligner"
   "aligner-scss"
   "an-old-hope-syntax"
   "atom-beautify"
+  "atom-typescript"
   "autocomplete-paths"
   "clip-history"
   "clipboard-plus"
