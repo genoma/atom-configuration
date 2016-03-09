@@ -66,6 +66,8 @@
       shell: "/usr/local/bin/zsh"
     style:
       defaultPanelHeight: "100px"
+      fontSize: "16"
+      theme: "dracula"
     toggles:
       autoClose: true
       cursorBlink: false
